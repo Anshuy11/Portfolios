@@ -30,7 +30,7 @@ const Contact = () => {
             "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
           }
         />
-        <link rel="canonical" href="https://portfolio-murex-one-46.vercel.app/contact" />
+        <link rel="canonical" href="https://portfolios-dusky.vercel.app/contact" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <link
@@ -60,7 +60,7 @@ const Contact = () => {
         />
         <meta name="robots" content="max-image-preview:large"></meta>
         <meta name="robots" content="NOODP" />
-        <meta property="og:url" content="https://portfolio-murex-one-46.vercel.app/contact" />
+        <meta property="og:url" content="https://portfolios-dusky.vercel.app/contact" />
         <meta
           property="og:image"
           content="favicon.ico"

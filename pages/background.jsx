@@ -54,7 +54,7 @@ function Background() {
             "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
           }
         />
-        <link rel="canonical" href="https://portfolio-murex-one-46.vercel.app/background" />
+        <link rel="canonical" href="https://portfolios-dusky.vercel.app/background" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <link
@@ -84,7 +84,7 @@ function Background() {
         />
         <meta name="robots" content="max-image-preview:large"></meta>
         <meta name="robots" content="NOODP" />
-        <meta property="og:url" content="https://portfolio-murex-one-46.vercel.app/background" />
+        <meta property="og:url" content="https://portfolios-dusky.vercel.app/background" />
         <meta
           property="og:image"
           content="favicon.ico"
