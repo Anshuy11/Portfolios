@@ -63,9 +63,9 @@ const Banner = () => {
 
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
-              7+
+              10+
             </span>
-            <span className="text-xs text-Snow">Personal Projects Clients</span>
+            <span className="text-xs text-Snow">Personal Projects </span>
           </div>
         </div>
       </div>
