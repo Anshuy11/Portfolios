@@ -45,7 +45,7 @@ const Intro = () => {
       <div className="footer absolute flex justify-center space-x-6 text-xl items-center bottom-0 z-50 h-10 w-full bg-MidNightBlack text-Snow">
         <Link
           className="hover:scale-125 ease-in-out duration-700"
-          href="mailto:?body=https://www.educationtimes.com/$anshuy115@gmail.com"
+          href="mailto:anshuy115@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
