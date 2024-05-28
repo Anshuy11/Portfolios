@@ -185,7 +185,8 @@ const Portfolio = () => {
       
       </Head>
    <BannerLayout>
-      <div className=" hidden sticky top-0 sm:flex bg-gradient-to-r from-[#102016] via-black to-[#102016] w-full z-50 p-3 text-white font text-lg gap-6 justify-evenly">
+     <div className=" -z-10">
+     <div className=" hidden sticky top-0 sm:flex bg-gradient-to-r from-[#102016] via-black to-[#102016] w-full z-50 p-3 text-white font text-lg gap-6 justify-evenly">
         {" "}
         <a href="/" className="cursor-pointer">
           Home
@@ -211,6 +212,7 @@ const Portfolio = () => {
         {projectsData?.map((data, key) => (
           <PortfolioCard key={key} data={data} />
         ))}
+      </div>
       </div>
       <Footer />
     </BannerLayout>
