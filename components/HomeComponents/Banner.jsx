@@ -17,7 +17,7 @@ const Banner = () => {
                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
                   <span>
                     {"<"}
-                    <span className="text-Green sm:text-base xl:text-lg font-bold">
+                    <span className="text-green-500 sm:text-base xl:text-lg font-bold">
                       div
                     </span>
                     {">"}{" "}
@@ -39,7 +39,7 @@ const Banner = () => {
                       </span>
                     </h2>{" "}
                     {"</"}
-                    <span className="text-Green sm:text-base xl:text-lg font-bold">
+                    <span className="text-green-500 sm:text-base xl:text-lg font-bold">
                       div
                     </span>
                     {">"}{" "}
@@ -53,8 +53,8 @@ const Banner = () => {
         {/* details in row */}
         <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
           <div className="flex items-center gap-x-1">
-            <span className="text-base md:text-lg text-Green font-bold">
-              3+
+            <span className="text-base md:text-lg text-green-500 font-bold">
+              5+
             </span>
             <span className="text-xs text-Snow">
               Worked on Professional Projects
@@ -62,7 +62,7 @@ const Banner = () => {
           </div>
 
           <div className="flex items-center gap-x-1">
-            <span className="text-base md:text-lg text-Green font-bold">
+            <span className="text-base md:text-lg text-green-500 font-bold">
               10+
             </span>
             <span className="text-xs text-Snow">Personal Projects </span>
