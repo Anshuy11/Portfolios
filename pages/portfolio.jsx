@@ -17,6 +17,33 @@ const Portfolio = () => {
   );
   const projectsData = [
     {
+      projectName: "Shoforce",
+      image: [
+        { image: "card-images/shoforce1.png", altTag: "Shoforce" },
+        { image: "card-images/shoforce2.png", altTag: "Shoforce" },
+        { image: "card-images/shoforce3.png", altTag: "Shoforce" },
+      
+      ],
+      description:
+        "I securely managed API tokens and user information using session storage, ensuring the protection of over 1000 user records. By engineering responsive and accessible user interfaces for diverse user types, I enhanced user engagement by 30%. Additionally, I optimized data access mechanisms, increasing user-specific query efficiency by 25% based on personalized requirements. My work on integrating the Google Location API significantly improved location-based features, while the development of dynamic and interactive data visualizations enhanced the experience for over 1000 SaaS users. Furthermore, I implemented a dual-theme website using the React Context API, allowing seamless light and dark mode toggling, which led to a 10% increase in user satisfaction.",
+      technologiesUsed: [
+        "Next.js",
+        "Javascript",
+        "Session Storage",
+        "Restful API",
+        "Debugging",
+        "Google Location API",
+  
+        "Tailwind css ",
+        "html/css",
+        "DOM Manipulation",
+      
+        "git",
+        "Context API",
+      ],
+      url: "https://shoforce.emships.com/",
+    },
+    {
       projectName: "Education Times",
       image: [
         { image: "card-images/et.png", altTag: "Education Times" },
