@@ -160,13 +160,13 @@ const Portfolio = () => {
         
         <title>
           {
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         </title>
         <meta
           name="description"
           content={
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         />
         <link rel="canonical" href="https://portfolios-dusky.vercel.app/portfolio" />
@@ -187,14 +187,14 @@ const Portfolio = () => {
         <meta
           property="og:title"
           content={
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
           content={
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         />
         <meta name="robots" content="max-image-preview:large"></meta>

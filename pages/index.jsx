@@ -2,6 +2,9 @@ import Footer from "../components/Footer";
 import Banner from "../components/HomeComponents/Banner";
 import MyExpertise from "../components/HomeComponents/Expertise/MyExpertise";
 import PortfolioSection from "../components/Portfolio/PortfolioSection";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+
+import { HiMail } from "react-icons/hi";
 import Head from "next/head";
 const home = () => {
   return (
@@ -11,13 +14,13 @@ const home = () => {
         
         <title>
           {
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         </title>
         <meta
           name="description"
           content={
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         />
         <link rel="canonical" href="https://portfolios-dusky.vercel.app/" />
@@ -38,14 +41,14 @@ const home = () => {
         <meta
           property="og:title"
           content={
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
           content={
-            "Dynamic and solution-oriented Frontend Developer poised for new opportunities"
+            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
           }
         />
         <meta name="robots" content="max-image-preview:large"></meta>
@@ -85,9 +88,82 @@ const home = () => {
           Resume
         </a>
       </div>
-      <Banner />
+      {/* <Banner /> */}
       <PortfolioSection />
-      <MyExpertise />
+     {/*  <MyExpertise /> */}
+     {/* Skill set */}
+     <div className="  px-4 py-2 cursor-default">
+             <div className="my-6 text-Snow flex flex-col gap-y-5">
+               <h1 className="text-lg font-bold">Contact Information</h1>
+               <div className="flex flex-col md:flex-row items-center gap-5 text-xs">
+                 <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
+                   <div className="flex justify-between items-center">
+                     <span className="md:text-base">Country:</span>
+                     <span className="text-LightGray md:text-sm">India</span>
+                   </div>
+                   <div className="flex justify-between items-center">
+                     <span className="md:text-base">City:</span>
+                     <span className="text-LightGray md:text-sm">Lucknow</span>
+                   </div>
+                   <div className="flex justify-between items-center">
+                     <span className="md:text-base">Company:</span>
+                     
+                       {" "}
+                       <a href="https://www.shobhitmediworld.com/" target="_blank"
+                       className="text-LightGray md:text-sm cursor-pointer">Shobhit Infotech part of Shobhit Mediworld LLP. </a>
+                   </div>
+                 </div>
+                {/*  <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
+                   <div className="flex justify-between items-center">
+                     <span className="md:text-base">Email:</span>
+                     <span className="text-LightGray text-sm">
+                       anshuy115@gmail.com
+                     </span>
+                   </div>
+                   <div className="flex justify-between items-center">
+                     <span className="md:text-base">Linkedin:</span>
+                     <a
+                       href="https://www.linkedin.com/in/anshu-yadav-62444a1a0/"
+                       target="_blank"
+                     >
+                       {" "}
+                       <span className="text-LightGray text-sm">Anshu Yadav</span>
+                     </a>{" "}
+                   </div> 
+                   <div className="flex justify-between items-center">
+                     <span className="md:text-base">Phone:</span>
+                     <span className="text-LightGray text-sm">+91 8830001375</span>
+                   </div>
+                 </div> */}
+               </div>
+             </div>
+             <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
+               <a
+                 className="hover:scale-125 ease-in-out duration-700"
+                 href="mailto:anshuy115@gmail.com"
+                 target="_blank"
+                 rel="noreferrer"
+               >
+                 <HiMail />
+               </a>
+               <a
+                 className="hover:scale-125 ease-in-out duration-700"
+                 href="https://github.com/Anshuy11"
+                 target="_blank"
+                 rel="noreferrer"
+               >
+                 <FaGithub />
+               </a>
+               <a
+                 className="hover:scale-125 ease-in-out duration-700"
+                 href="https://www.linkedin.com/in/anshu-yadav-62444a1a0/"
+                 target="_blank"
+                 rel="noreferrer"
+               >
+                 <FaLinkedin />
+               </a>
+             </div>
+           </div>
       <Footer />
     </div>
     </>

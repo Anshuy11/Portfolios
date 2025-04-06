@@ -13,7 +13,7 @@ const PortfolioSection = () => {
       
       ],
       description:
-        "I securely managed API tokens and user information using session storage, ensuring the protection of over 1000 user records. By engineering responsive and accessible user interfaces for diverse user types, I enhanced user engagement by 30%. Additionally, I optimized data access mechanisms, increasing user-specific query efficiency by 25% based on personalized requirements. My work on integrating the Google Location API significantly improved location-based features, while the development of dynamic and interactive data visualizations enhanced the experience for over 1000 SaaS users. Furthermore, I implemented a dual-theme website using the React Context API, allowing seamless light and dark mode toggling, which led to a 10% increase in user satisfaction.",
+        "Efficiently manage employee data and monitor workforce activities through a comprehensive SaaS platform.Enable real-time tracking, streamlined data management, and actionable insights for optimized workforce performance.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
@@ -23,7 +23,7 @@ const PortfolioSection = () => {
         "html/css",
         "DOM Manipulation",
       
-        "git",
+        "Git & Github",
         "Context API",
       ],
       url: "https://shoforce.emships.com/",
@@ -38,7 +38,7 @@ const PortfolioSection = () => {
         { image: "card-images/et5.png", altTag: "Education Times" },
       ],
       description:
-        " As a frontend developer I developed responsive and accessible user interfaces. Integrated third-party APIs to enhance website functionality and user experience. Implemented user authentication and authorization mechanisms, including nextAuth.js, for secure access to web applications. Use AMP Tag to create high-performance, mobile-friendly dynamic web-stories.Enhance the website's performance to achieve a minimum score of 75+ for mobile devices and 95+ for desktop .Utilize distinct schema for both list and detail pages across the website.Worked closely with UI/UX designers to translate design mockups and wireframes into functional web pages.Collaborated with back-end developers to design and consume RESTful APIs for seamless data integration.Conducted code reviews and provided technical guidance to team members to ensure high code quality and adherence to best practices. Debug the code to uphold the website's performance and functionality.",
+        "A comprehensive career guidance platform for students featuring dedicated sections for counselors, placement reports, colleges, study abroad opportunities, informative articles, web stories, and a dynamic Q&A forum.Designed to empower students with personalized insights and resources for informed career decisions.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
@@ -47,7 +47,7 @@ const PortfolioSection = () => {
         "html/css",
         "DOM Manipulation",
         "Redux",
-        "git",
+        "Git & Github",
         "Next Outh",
       ],
       url: "https://www.educationtimes.com/",
@@ -62,7 +62,7 @@ const PortfolioSection = () => {
         { image: "card-images/ta5.png", altTag: "Times Ascent" },
       ],
       description:
-        "During my tenure as a frontend developer at Times Ascent, I played a pivotal role in enhancing various sections of the website while also undertaking the responsibility of its maintenance. Specifically, I spearheaded initiatives within the Webstory section, contributing to its development, validation, and optimization processes. In addition to ensuring the technical robustness and accuracy of Webstory content, I diligently focused on improving the overall performance metrics of the website. My efforts encompassed a comprehensive approach, involving code optimization, resource management, and the implementation of best practices to enhance user experience and site responsiveness. Through these multifaceted endeavors, I endeavored to uphold the high standards of quality and functionality expected within the digital realm, thereby contributing significantly to the success and efficacy of the Times Ascent online platform.",
+        "A dedicated platform focused on providing job opportunities and career information specific to Lucknow, complemented by engaging content through podcasts, web stories, and informative articles.Designed to support local job seekers with relevant updates, insights, and guidance for career growth.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
@@ -71,7 +71,7 @@ const PortfolioSection = () => {
         "html/css",
         "DOM Manipulation",
 
-        "git",
+        "Git & Github",
       ],
       url: "https://timesascent.com/",
     },
@@ -96,13 +96,14 @@ const PortfolioSection = () => {
         },
       ],
       description:
-        "Designed and developed many sections of admin panel for educationTimes for efficient management of content and data  entries, implementing CRUD (Create, Update, Delete) operations . ",
+        "Dynamically managed all content and data for EducationTimes, a CMS-driven application designed to streamline content creation, editing, and publishing processes.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
         "React.js",
         "Tailwind css ",
         "html/css",
+        "Git & Github"
       ],
       url: "https://etadmin.onecorp.co.in/",
     },
@@ -127,7 +128,7 @@ const PortfolioSection = () => {
         },
       ],
       description:
-        "Designed and developed many  sections of admin panel for timesAscent for efficient management of content and data entries, implementing CRUD(Create, Update, Delete) ",
+        "Efficiently managed and maintained dynamic data for TimesAscent, a CMS-based application focused on seamless content management and publishing workflows.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
