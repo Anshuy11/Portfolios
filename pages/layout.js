@@ -13,7 +13,7 @@ export default function Layout({ children }) {
     <div
       className={`h-screen lg:p-[0.8rem] flex flex-col select-none font-circular`}
     >
-      <div className="lg:hidden">
+      {/* <div className="lg:hidden">
         <div className=" bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between px-2 lg:hidden relative">
           <div
             className="icon flex items-center gap-x-2"
@@ -25,7 +25,7 @@ export default function Layout({ children }) {
             {/*  <div className="text-Snow absolute -right-1 -bottom-1">
               <FaMousePointer />
             </div> */}
-          </div>
+         {/*  </div>
 
           <div
             className="icon flex items-center gap-x-2"
@@ -37,7 +37,7 @@ export default function Layout({ children }) {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="flex relative h-full justify-between gap-x-3">
         {/* left most side */}
         <div

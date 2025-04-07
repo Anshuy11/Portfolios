@@ -8,6 +8,10 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import Head from "next/head";
 import Background from "./background";
+import Skills from "../components/Common/Intro/Skills";
+import Tools from "../components/Common/Intro/Tools";
+import Intro from "../components/Common/Intro";
+import { useRef } from "react";
 const home = () => {
   const JobDescription = [
     {
@@ -27,6 +31,24 @@ const home = () => {
       role: "Software Developer",
     },
   ];
+ 
+    const MyHomeRef = useRef(null);
+  
+    const handleScrollHome = () => {
+      MyHomeRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    const MyContactRef = useRef(null);
+  
+    const handleScrollContact= () => {
+      MyContactRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    const MyExperienceRef = useRef(null);
+  
+    const handleScrollExp = () => {
+      MyExperienceRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
   return (
     <>
      <Head>
@@ -86,17 +108,17 @@ const home = () => {
       
       </Head>
       <div className="Home-Page -z-10">
-      <div className=" hidden sticky top-0 sm:flex bg-gradient-to-r from-[#102016] via-black to-[#102016] w-full z-50 p-3 text-white font text-lg gap-6 justify-evenly">
+      <div className="  sticky top-0 flex bg-gradient-to-r from-[#102016] via-black to-[#102016] w-full z-50 p-3 text-white font text-lg gap-6 justify-evenly text-[12px] sm:text-[14px]">
         {" "}
-        <a href="/" className="cursor-pointer">
-          Home
-        </a>
-        <a href="/contact" className="cursor-pointer">
+        <div  onClick={handleScrollHome} className="cursor-pointer">
+          Project
+        </div>
+        <div  onClick={handleScrollContact} className="cursor-pointer">
           Contact
-        </a>
-        <a href="/background" className="cursor-pointer">
+        </div>
+        <div  onClick={handleScrollExp} className="cursor-pointer">
         Experience
-        </a>
+        </div>
        {/*  <a href="portfolio" className="cursor-pointer">
           Portfolio
         </a> */}
@@ -109,16 +131,25 @@ const home = () => {
         </a>
       </div>
       {/* <Banner /> */}
+      <div   className="lg:hidden block">
+      <Intro/>
+      </div>
+      <div  ref={MyHomeRef}>
+      <h1 className="text-lg font-bold my-6 text-Snow flex flex-col gap-y-5 sm:px-6 px-4">Projects</h1>
+      
       <PortfolioSection />
+      </div>
      {/*  <MyExpertise /> */}
      {/* Skill set */}
     
 
-       
-          <Background/>
-     <div className="  px-4 py-2 cursor-default">
+       <div ref={MyExperienceRef}>
+       <Background/>
+       </div>
+         
+     <div ref={MyContactRef} className="  px-4 py-2 cursor-default">
              <div className="my-6 text-Snow flex flex-col gap-y-5">
-               <h1 className="text-lg font-bold">Contact Information</h1>
+               <h2 className="text-lg font-bold">Contact Information</h2>
               {/*  <div className="flex flex-col md:flex-row items-center gap-5 text-xs">
                  <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                    <div className="flex justify-between items-center">

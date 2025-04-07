@@ -15,7 +15,7 @@ const Intro = () => {
   return (
     <>
       {/* fixed at top */}
-      <div className="headerr z-50 absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-48 top-0 flex items-center justify-center w-full flex-col px-4 gap-y-4">
+      <div className="headerr  absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-48 top-0 flex items-center justify-center w-full flex-col px-4 gap-y-4 mt-12 lg:mt-0 ">
         <Image
           className="w-20 h-20 rounded-full"
           src={anshu}
@@ -32,17 +32,17 @@ const Intro = () => {
       </div>
 
       {/* middle components */}
-      <div className="beech z-20 flex flex-col overflow-y-scroll pt-48 top-48 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4">
+      <div className="beech z-20 flex flex-col overflow-y-scroll pt-48 top-48 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4 mb-2 lg:mb-0">
         <Location />
-        <Skills />
+     {/*    <Skills /> */}
         <Tools />
-        <Languages />
-        <Contact />
-        <Download icon={<FaDownload />} />
+       {/*  <Languages />
+        <Contact /> */}
+       {/*  <Download icon={<FaDownload />} /> */}
       </div>
 
       {/* fixed at bottom */}
-      <div className="footer absolute flex justify-center space-x-6 text-xl items-center bottom-0 z-50 h-10 w-full bg-MidNightBlack text-Snow">
+    {/*   <div className="footer absolute flex justify-center space-x-6 text-xl items-center bottom-0 z-50 h-10 w-full bg-MidNightBlack text-Snow">
         <Link
           className="hover:scale-125 ease-in-out duration-700"
           href="mailto:anshuy115@gmail.com"
@@ -69,7 +69,7 @@ const Intro = () => {
         >
           <FaLinkedin />
         </Link>
-      </div>
+      </div> */}
     </>
   );
 };

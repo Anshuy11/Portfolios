@@ -50,7 +50,7 @@ function Background() {
    
       <div>
       
-        <div className="grid md:grid-cols-1 md:divide-x-4 md:divide-Green pb-2 pt-10 relative min-h-screen pr-6 ">
+        <div className="grid md:grid-cols-1 md:divide-x-4 md:divide-Green pb-2 pt-10 relative min-h-screen sm:pr-6 p-4 sm:p-0">
          
           <div className="order-2 md:order-2">
             <div className="flex flex-col gap-y-4 md:ml-12">

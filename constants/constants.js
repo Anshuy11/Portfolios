@@ -27,7 +27,7 @@ export const TECH_STACK = [
   "ReactJS",
   "NextJS",
   "TypeScript",
-  "NodeJS",
+  "Context API",
   "Redux",
   "CSS",
   "HTML",
@@ -35,6 +35,9 @@ export const TECH_STACK = [
   "REST API",
   "Git",
   "GitHub",
+  "NodeJS",
+  "Express.js",
+  "MongoDB",
   "Postman",
 ];
 
