@@ -147,8 +147,10 @@ const home = () => {
        <Background/>
        </div>
          
-     <div ref={MyContactRef} className="  px-4 py-2 cursor-default">
-             <div className="my-6 text-Snow flex flex-col gap-y-5">
+     <div  className="  px-4 py-2 cursor-default">
+      <div ref={MyContactRef}>
+
+        <div className="my-6 text-Snow flex flex-col gap-y-5">
                <h2 className="text-lg font-bold">Contact Information</h2>
               {/*  <div className="flex flex-col md:flex-row items-center gap-5 text-xs">
                  <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
@@ -218,6 +220,8 @@ const home = () => {
                  <FaLinkedin />
                </a>
              </div>
+      </div>
+             
            </div>
       <Footer />
     </div>
