@@ -106,17 +106,17 @@ const PortfolioSection = () => {
         { image: "card-images/ta4.png", altTag: "Times Ascent" },
         { image: "card-images/ta5.png", altTag: "Times Ascent" },
          {
-          image: "card-images/etAdmin.png",
-          altTag: "Education Times Admin Panel",
+          image: "card-images/taAdmin.png",
+          altTag: "Times Ascen Admin Panel",
         },
         {
-          image: "card-images/etAdmin1.png",
-          altTag: "Education Times Admin Panel",
+          image: "card-images/taAdmin1.png",
+          altTag: "Times Ascen Admin Panel",
         },
       
         {
-          image: "card-images/etAdmin3.png",
-          altTag: "Education Times Admin Panel",
+          image: "card-images/taAdmin3.png",
+          altTag: "Times Ascen Admin Panel",
         },
       ],
       description:

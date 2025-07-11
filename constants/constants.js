@@ -25,7 +25,7 @@ export const SKILLS = [
 export const TECH_STACK = [
   "JavaScript",
   "ReactJS",
-  "NextJS",
+  "Next.js",
   "TypeScript",
   "Context API",
   "Redux",
