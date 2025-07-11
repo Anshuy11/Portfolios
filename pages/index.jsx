@@ -139,8 +139,7 @@ const home = () => {
       
       <PortfolioSection />
       </div>
-     {/*  <MyExpertise /> */}
-     {/* Skill set */}
+     
     
 
        <div ref={MyExperienceRef}>

@@ -1,6 +1,6 @@
 export const NAME = "Anshu Yadav";
 
-export const DESIGNATION = `React Developer | Nextjs Developer | Frontend Developer`;
+export const DESIGNATION = `React Developer | Nextjs Developer | Fullstack Developer`;
 
 export const DETAILS = {
   Residence: "India",
@@ -38,12 +38,13 @@ export const TECH_STACK = [
   "NodeJS",
   "Express.js",
   "MongoDB",
+  "CI/CD",
   "Postman",
 ];
 
 export const CONTACTS = {
   EMAIL: "anshuy115@gmail.com",
-  PHONE: "+918830001375",
+
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/Anshuy11",

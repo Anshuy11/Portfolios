@@ -4,7 +4,39 @@ import PortfolioCard from "./PortfolioCard";
 
 const PortfolioSection = () => {
   const projectsData = [
+    
     {
+      projectName: "ShopNow",
+      image: [
+        { image: "card-images/shopNow1.png", altTag: "shopNow" },
+        { image: "card-images/shopNow2.png", altTag: "shopNow" },
+        { image: "card-images/shopNow3.png", altTag: "shopNow" },
+        { image: "card-images/shopNow4.png", altTag: "shopNow" },
+        { image: "card-images/shopNow5.png", altTag: "shopNow" },
+      
+      ],
+      description:
+        "Single-handedly built a responsive e-commerce app with auth, Razorpay, Redux cart, theme toggle, search debouncing, and Vercel deployment.",
+      technologiesUsed: [
+        "Next.js",
+        "react",
+        "Javascript",
+        "Nodejs",
+        "MongoDB",
+        "Razorpay",
+        "LocalStorage",
+        "SessionStorage",
+  
+        "Tailwind css ",
+        "html/css",
+        "Redux",
+      
+        "Git & Github",
+        "Context API",
+      ],
+      url: "https://shop-now-chi.vercel.app/",
+    },
+      {
       projectName: "Shoforce",
       image: [
         { image: "card-images/shoforce1.png", altTag: "Shoforce" },
@@ -13,7 +45,7 @@ const PortfolioSection = () => {
       
       ],
       description:
-        "Efficiently manage employee data and monitor workforce activities through a comprehensive SaaS platform.Enable real-time tracking, streamlined data management, and actionable insights for optimized workforce performance.",
+        "Built an efficient admin panel for a SaaS platform to manage employee data and monitor workforce activities with real-time tracking, streamlined data handling, and actionable insights.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
@@ -22,11 +54,11 @@ const PortfolioSection = () => {
         "Tailwind css ",
         "html/css",
         "DOM Manipulation",
-      
+      "SessionStorage",
         "Git & Github",
         "Context API",
       ],
-      url: "https://shoforce.emships.com/",
+      url: "#",
     },
     {
       projectName: "Education Times",
@@ -36,9 +68,22 @@ const PortfolioSection = () => {
         { image: "card-images/et3.png", altTag: "Education Times" },
         { image: "card-images/et4.png", altTag: "Education Times" },
         { image: "card-images/et5.png", altTag: "Education Times" },
+            {
+          image: "card-images/etAdmin.png",
+          altTag: "Education Times Admin Panel",
+        },
+        {
+          image: "card-images/etAdmin1.png",
+          altTag: "Education Times Admin Panel",
+        },
+        {
+          image: "card-images/etAdmin2.png",
+          altTag: "Education Times Admin Panel",
+        },
+       
       ],
       description:
-        "A comprehensive career guidance platform for students featuring dedicated sections for counselors, placement reports, colleges, study abroad opportunities, informative articles, web stories, and a dynamic Q&A forum.Designed to empower students with personalized insights and resources for informed career decisions.",
+        "Built a comprehensive career guidance platform with sections for counselors, placements, colleges, study abroad, articles, web stories, and Q&A. Also developed a dynamic admin panel to manage all content efficiently.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
@@ -60,9 +105,22 @@ const PortfolioSection = () => {
         { image: "card-images/ta3.png", altTag: "Times Ascent" },
         { image: "card-images/ta4.png", altTag: "Times Ascent" },
         { image: "card-images/ta5.png", altTag: "Times Ascent" },
+         {
+          image: "card-images/etAdmin.png",
+          altTag: "Education Times Admin Panel",
+        },
+        {
+          image: "card-images/etAdmin1.png",
+          altTag: "Education Times Admin Panel",
+        },
+      
+        {
+          image: "card-images/etAdmin3.png",
+          altTag: "Education Times Admin Panel",
+        },
       ],
       description:
-        "A dedicated platform focused on providing job opportunities and career information specific to Lucknow, complemented by engaging content through podcasts, web stories, and informative articles.Designed to support local job seekers with relevant updates, insights, and guidance for career growth.",
+        "Developed a Lucknow-focused job platform with podcasts, web stories, and articles to support local job seekers. Also built an admin panel for content and job listing management.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
@@ -75,69 +133,8 @@ const PortfolioSection = () => {
       ],
       url: "https://timesascent.com/",
     },
-    {
-      projectName: "Education Times Admin Panel",
-      image: [
-        {
-          image: "card-images/etAdmin.png",
-          altTag: "Education Times Admin Panel",
-        },
-        {
-          image: "card-images/etAdmin1.png",
-          altTag: "Education Times Admin Panel",
-        },
-        {
-          image: "card-images/etAdmin2.png",
-          altTag: "Education Times Admin Panel",
-        },
-        {
-          image: "card-images/etAdmin3.png",
-          altTag: "Education Times Admin Panel",
-        },
-      ],
-      description:
-        "Dynamically managed all content and data for EducationTimes, a CMS-driven application designed to streamline content creation, editing, and publishing processes.",
-      technologiesUsed: [
-        "Next.js",
-        "Javascript",
-        "React.js",
-        "Tailwind css ",
-        "html/css",
-        "Git & Github"
-      ],
-      url: "https://etadmin.onecorp.co.in/",
-    },
-    {
-      projectName: "Times Ascent Admin Panel ",
-      image: [
-        {
-          image: "card-images/taAdmin.png",
-          altTag: "Times Ascent Admin Panel ",
-        },
-        {
-          image: "card-images/taAdmin1.png",
-          altTag: "Times Ascent Admin Panel ",
-        },
-        {
-          image: "card-images/taAdmin2.png",
-          altTag: "Times Ascent Admin Panel ",
-        },
-        {
-          image: "card-images/taAdmin3.png",
-          altTag: "Times Ascent Admin Panel ",
-        },
-      ],
-      description:
-        "Efficiently managed and maintained dynamic data for TimesAscent, a CMS-based application focused on seamless content management and publishing workflows.",
-      technologiesUsed: [
-        "Next.js",
-        "Javascript",
-        "React.js",
-        "Tailwind css ",
-        "html/css",
-      ],
-      url: "https://timesbi.onecorp.co.in/",
-    },
+  
+   
   ];
   return (
     <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 px-8 sm:my-6">
