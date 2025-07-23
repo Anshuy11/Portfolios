@@ -1,4 +1,4 @@
-# 🧑‍💻 Anshu Yadav — Portfolio(https://portfolios-dusky.vercel.app/)
+# 🧑‍💻 Anshu Yadav — [Portfolio](https://portfolios-dusky.vercel.app/)
 
 A responsive, modern developer portfolio built with **React**, **Next.js**, and **Tailwind CSS**. The portfolio includes smooth scrolling, theme toggling, carousel and reusable UI components.
 
