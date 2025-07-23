@@ -6,8 +6,8 @@ A responsive, modern developer portfolio built with **React**, **Next.js**, and 
 
 ## 🚀 Tech Stack
 
-- **Next.js 14**
-- **React 18**
+- **Next.js 15**
+- **React 19**
 - **Tailwind CSS**
 - **Heroicons**
 - **Ref-based smooth scrolling**
