@@ -84,19 +84,19 @@ export default function Home() {
         </p>
       </div>
 
-      <div ref={skillRef} className="  mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section  scroll-mt-20">
-        <h2 className="  text-xl  font-semibold">Skill & Tool</h2>
+      <div ref={skillRef} className="  mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section  scroll-mt-32">
+        <h2 className=" text-2xl sm:text-3xl font-bold mb-4">Skill & Tool</h2>
         <div className="px-6 py-10 rounded-xl shadow-lg">
  <SkillsCard />
         </div>
        
       </div>
       <div ref={ProjectRef} className="mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section  scroll-mt-32">
-        <h3 className="  text-xl  font-semibold">Projects</h3>
+        <h3 className=" text-2xl sm:text-3xl font-bold mb-4">Projects</h3>
         <ProjectsCard />
       </div>
       <div ref={experienceRef} className="mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section scroll-mt-32">
-        <h4 className="  text-xl  font-semibold">Experience</h4>
+        <h4 className="text-2xl sm:text-3xl font-bold mb-4">Experience</h4>
         <ExperienceCard />
       </div>
     </Layout>
