@@ -23,7 +23,6 @@ A responsive, modern developer portfolio built with **React**, **Next.js**, and 
 
 💼 Projects, Skills, Experience, and About sections
 
-🔗 Contact section scrolls from Footer or Navbar
 ---
 ## 📁 Folder Structure
 
