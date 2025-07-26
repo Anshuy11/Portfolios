@@ -11,15 +11,15 @@ export default function Home() {
   const experienceRef = useRef(null);
   const ProjectRef = useRef(null);
   const skillRef = useRef(null);
-    const sectionRefs = {
+  const sectionRefs = {
     aboutRef,
     skillRef,
     ProjectRef,
     experienceRef,
   };
-  
+
   return (
-      <Layout sectionRefs={sectionRefs} contactRef={contactRef}>
+    <Layout sectionRefs={sectionRefs} contactRef={contactRef}>
       <Head>
         <meta charSet="utf-8" />
 
@@ -64,11 +64,14 @@ export default function Home() {
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
       </Head>
-      <div  className=" px-6 py-10 rounded-xl shadow-lg mx-auto md:mt-10 mt-6 md:mb-10 mb-6">
+      <div className=" px-6 py-10 rounded-xl shadow-lg mx-auto md:mt-10 mt-6 md:mb-10 mb-6">
         <h1 className="text-3xl sm:text-4xl font-bold mb-4  border-b border-gray-500 pb-2 inline-block">
           Anshu Yadav
         </h1>
-        <p ref={aboutRef} className="leading-relaxed text-base sm:text-lg mt-4 section scroll-mt-64">
+        <p
+          ref={aboutRef}
+          className="leading-relaxed text-base sm:text-lg mt-4 section scroll-mt-64"
+        >
           Frontend Developer with{" "}
           <span className="font-semibold ">2.7+ years</span> of experience
           building scalable, high-performance React and Next.js applications.
@@ -84,18 +87,26 @@ export default function Home() {
         </p>
       </div>
 
-      <div ref={skillRef} className="  mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section  scroll-mt-32">
+      <div
+        ref={skillRef}
+        className="  mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section  scroll-mt-32"
+      >
         <h2 className=" text-2xl sm:text-3xl font-bold mb-4">Skill & Tool</h2>
         <div className="px-6 py-10 rounded-xl shadow-lg">
- <SkillsCard />
+          <SkillsCard />
         </div>
-       
       </div>
-      <div ref={ProjectRef} className="mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section  scroll-mt-32">
-        <h3 className=" text-2xl sm:text-3xl font-bold mb-4">Projects</h3>
+      <div
+        ref={ProjectRef}
+        className="mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section  scroll-mt-32"
+      >
+      
         <ProjectsCard />
       </div>
-      <div ref={experienceRef} className="mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section scroll-mt-32">
+      <div
+        ref={experienceRef}
+        className="mx-auto md:mt-10 mt-6 md:mb-10 mb-6 section scroll-mt-32"
+      >
         <h4 className="text-2xl sm:text-3xl font-bold mb-4">Experience</h4>
         <ExperienceCard />
       </div>

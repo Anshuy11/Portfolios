@@ -15,37 +15,7 @@ const ProjectsCard = () => {
     slidesToShow: 1,
     autoplay: true,
   };
-  const projectsData = [
-    {
-      projectName: "ShopNow",
-      image: [
-        { image: "/card-images/shopNow1.png", altTag: "shopNow" },
-        { image: "/card-images/shopNow2.png", altTag: "shopNow" },
-        { image: "/card-images/shopNow3.png", altTag: "shopNow" },
-        { image: "/card-images/shopNow4.png", altTag: "shopNow" },
-        { image: "/card-images/shopNow5.png", altTag: "shopNow" },
-      ],
-      description:
-        "Single-handedly built a responsive e-commerce app with auth, Razorpay, Redux cart, theme toggle, search debouncing, and Vercel deployment.",
-      technologiesUsed: [
-        "Next.js",
-        "react",
-        "Javascript",
-        "Nodejs",
-        "MongoDB",
-        "Razorpay",
-        "LocalStorage",
-        "SessionStorage",
-
-        "Tailwind css ",
-        "html/css",
-        "Redux",
-
-        "Git & Github",
-        "Context API",
-      ],
-      url: "https://shop-now-chi.vercel.app/",
-    },
+  const projectsDataProfessional = [
     {
       projectName: "Shoforce",
       image: [
@@ -142,60 +112,171 @@ const ProjectsCard = () => {
       url: "https://timesascent.com/",
     },
   ];
-  return (
-    <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 md:gap-6 my-4">
-      {projectsData?.map((data, key) => (
-        <>
-          <a
-            href={data.url}
-            target="_blank"
-            key={key}
-            className="border border-gray-400 shadow-md hover:shadow-2xl cursor-pointer overflow-hidden h-full transform transition duration-500 hover:scale-[1.03] rounded-md "
-          >
-            <Slider ref={book} {...settingsWeb}>
-              {data?.image &&
-                data?.image.map((item, index) => (
-                  <div key={index} className="flex-shrink-0">
-                    <div
-                      className={
-                        "  top-0  rounded  mb-2 relative transform transition duration-500 hover:scale-[1.02] w-full h-48 md:h-64 "
-                      }
-                    >
-                      {item.image && (
-                        <Image
-                          src={item.image}
-                          alt={item.altTag}
-                          fill
-                          className="object-cover rounded"
-                        />
-                      )}
-                    </div>
-                  </div>
-                ))}
-            </Slider>
-            <div
-              id="arrow"
-              className="py-2 px-6 -mt-6 sm:mt-0   hover:-translate-y-10 transition-all ease-in-out duration-500"
-            >
-              <div className="flex justify-between p-0 m-0 ">
-                <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl  leading-tight sm:leading-normal">
-                  {data?.projectName}
-                </h3>
-              </div>
-              <p className="text-xs  font-normal">
-                {data?.description}
-              </p>
+  const projectsDataPersonal = [
+    {
+      projectName: "ShopNow",
+      image: [
+        { image: "/card-images/shopNow1.png", altTag: "shopNow" },
+        { image: "/card-images/shopNow2.png", altTag: "shopNow" },
+        { image: "/card-images/shopNow3.png", altTag: "shopNow" },
+        { image: "/card-images/shopNow4.png", altTag: "shopNow" },
+        { image: "/card-images/shopNow5.png", altTag: "shopNow" },
+      ],
+      description:
+        "Built a responsive e-commerce app with JWT authentication and Razorpay (test-mode) integration. Managed state using Redux and Context API, optimized search with debouncing, and persisted data using localStorage. Deployed via Vercel.",
+      technologiesUsed: [
+        "Next.js",
+        "react",
+        "Javascript",
+        "Nodejs",
+        "MongoDB",
+        "Razorpay",
+        "LocalStorage",
+        "SessionStorage",
 
-              <div className="text-sm flex flex-wrap gap-3 py-2">
-                {data.technologiesUsed.map((index, key) => (
-                  <Badge key={key} title={index} />
-                ))}
+        "Tailwind css ",
+        "html/css",
+        "Redux",
+
+        "Git & Github",
+        "Context API",
+      ],
+      url: "https://shop-now-chi.vercel.app/",
+    },
+    {
+      projectName: "CookBuddy",
+      image: [
+        { image: "/card-images/cookbuddy1.png", altTag: "cookbuddy" },
+        { image: "/card-images/cookbuddy2.png", altTag: "cookbuddy" },
+        { image: "/card-images/cookbuddy3.png", altTag: "cookbuddy" },
+        { image: "/card-images/cookbuddy4.png", altTag: "cookbuddy" },
+      ],
+      description:
+        "Built a smart meal app with ingredient-based search and nutrition info using third-party APIs. Added anonymous auth, bookmarking, and lazy loading. Fully responsive and deployed on Vercel.",
+      technologiesUsed: [
+        "Next.js",
+        "react",
+        "Javascript",
+        "Firebase",
+        "Anonymous Auth, ",
+
+        "Tailwind css ",
+        "html/css",
+
+        "Git & Github",
+      ],
+      url: "https://cook-buddy.vercel.app/",
+    },
+  ];
+  return (
+    <>
+      <h3 className="text-2xl sm:text-3xl font-bold mb-4">Personal Projects</h3>
+      <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 md:gap-6 my-4 mb-8">
+        {projectsDataPersonal?.map((data, key) => (
+          <>
+            <a
+              href={data.url}
+              target="_blank"
+              key={key}
+              className="border border-gray-400 shadow-md hover:shadow-2xl cursor-pointer overflow-hidden h-full transform transition duration-500 hover:scale-[1.03] rounded-md "
+            >
+              <Slider ref={book} {...settingsWeb}>
+                {data?.image &&
+                  data?.image.map((item, index) => (
+                    <div key={index} className="flex-shrink-0">
+                      <div
+                        className={
+                          "  top-0  rounded  mb-2 relative transform transition duration-500 hover:scale-[1.02] w-full h-48 md:h-64 "
+                        }
+                      >
+                        {item.image && (
+                          <Image
+                            src={item.image}
+                            alt={item.altTag}
+                            fill
+                            className="object-cover rounded"
+                          />
+                        )}
+                      </div>
+                    </div>
+                  ))}
+              </Slider>
+              <div
+                id="arrow"
+                className="py-2 px-6 -mt-6 sm:mt-0   hover:-translate-y-10 transition-all ease-in-out duration-500"
+              >
+                <div className="flex justify-between p-0 m-0 ">
+                  <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl  leading-tight sm:leading-normal">
+                    {data?.projectName}
+                  </h3>
+                </div>
+                <p className="text-xs  font-normal">{data?.description}</p>
+
+                <div className="text-sm flex flex-wrap gap-3 py-2">
+                  {data.technologiesUsed.map((index, key) => (
+                    <Badge key={key} title={index} />
+                  ))}
+                </div>
               </div>
-            </div>
-          </a>
-        </>
-      ))}
-    </div>
+            </a>
+          </>
+        ))}
+      </div>
+      <div className="text-2xl sm:text-3xl font-bold mb-4">
+        Professional Projects
+      </div>
+      <div className="grid justify items-center grid-flow-row md:grid-cols-2 grid-rows-auto gap-4 md:gap-6 my-4">
+        {projectsDataProfessional?.map((data, key) => (
+          <>
+            <a
+              href={data.url}
+              target="_blank"
+              key={key}
+              className="border border-gray-400 shadow-md hover:shadow-2xl cursor-pointer overflow-hidden h-full transform transition duration-500 hover:scale-[1.03] rounded-md "
+            >
+              <Slider ref={book} {...settingsWeb}>
+                {data?.image &&
+                  data?.image.map((item, index) => (
+                    <div key={index} className="flex-shrink-0">
+                      <div
+                        className={
+                          "  top-0  rounded  mb-2 relative transform transition duration-500 hover:scale-[1.02] w-full h-48 md:h-64 "
+                        }
+                      >
+                        {item.image && (
+                          <Image
+                            src={item.image}
+                            alt={item.altTag}
+                            fill
+                            className="object-cover rounded"
+                          />
+                        )}
+                      </div>
+                    </div>
+                  ))}
+              </Slider>
+              <div
+                id="arrow"
+                className="py-2 px-6 -mt-6 sm:mt-0   hover:-translate-y-10 transition-all ease-in-out duration-500"
+              >
+                <div className="flex justify-between p-0 m-0 ">
+                  <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl  leading-tight sm:leading-normal">
+                    {data?.projectName}
+                  </h3>
+                </div>
+                <p className="text-xs  font-normal">{data?.description}</p>
+
+                <div className="text-sm flex flex-wrap gap-3 py-2">
+                  {data.technologiesUsed.map((index, key) => (
+                    <Badge key={key} title={index} />
+                  ))}
+                </div>
+              </div>
+            </a>
+          </>
+        ))}
+      </div>
+    </>
   );
 };
 

@@ -10,6 +10,8 @@ const SkillsCard = () => {
 
     "Context API",
     "Redux",
+    "SSR",
+    "Payment Gateway",
     "CSS3",
     "HTML5",
     "Node.JS",
@@ -18,8 +20,15 @@ const SkillsCard = () => {
     "Tailwind CSS",
     "REST API",
     "GraphQL",
-    "Git & GitHub",
 
+    "Local Storage",
+    "Session Storage",
+    "Lazy Loading",
+    "Core Web Vital",
+
+    "Vite",
+    "Babel",
+    "Git & GitHub",
     "CI/CD",
     "DSA",
     "Debugging",
