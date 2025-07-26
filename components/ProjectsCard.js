@@ -61,7 +61,7 @@ const ProjectsCard = () => {
         },
       ],
       description:
-        "Built a comprehensive career guidance platform with sections for counselors, placements, colleges, study abroad, articles, web stories, and Q&A. Also developed a dynamic admin panel to manage all content efficiently.",
+        "Built a comprehensive career guidance platform with sections for counselors, placements, colleges, study abroad, articles, web stories, and Q&A. Also developed a dynamic admin panel to manage content efficiently.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
@@ -98,7 +98,7 @@ const ProjectsCard = () => {
         },
       ],
       description:
-        "Developed a Lucknow-focused job platform with podcasts, web stories, and articles to support local job seekers. Also built an admin panel for content and job listing management.",
+        "Developed web stories and articles for the user-facing website, along with an admin panel to manage web stories, articles, and job listings.",
       technologiesUsed: [
         "Next.js",
         "Javascript",
