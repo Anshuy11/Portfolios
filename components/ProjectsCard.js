@@ -123,7 +123,7 @@ const ProjectsCard = () => {
         { image: "/card-images/shopNow5.png", altTag: "shopNow" },
       ],
       description:
-        "Built a responsive e-commerce app with JWT authentication and Razorpay (test-mode) integration. Managed state using Redux and Context API, optimized search with debouncing, and persisted data using localStorage. Deployed via Vercel.",
+        "ShopNow is a modern frontend-heavy e-commerce application focused on providing users with a fast and seamless shopping experience. Built with Next.js, Tailwind CSS, Redux, and Razorpay integration, the project showcases a smooth and responsive user experience across devices with dual theme with the help of context API . Comprehensive testing is implemented using Jest and React Testing Library (RTL) to ensure component reliability and performance.",
       technologiesUsed: [
         "Next.js",
         "react",
@@ -137,6 +137,8 @@ const ProjectsCard = () => {
         "Tailwind css ",
         "html/css",
         "Redux",
+        "Jest",
+      " React Testing Library (RTL)",
 
         "Git & Github",
         "Context API",
@@ -152,14 +154,14 @@ const ProjectsCard = () => {
         { image: "/card-images/cookbuddy4.png", altTag: "cookbuddy" },
       ],
       description:
-        "Built a smart meal app with ingredient-based search and nutrition info using third-party APIs. Added anonymous auth, bookmarking, and lazy loading. Fully responsive and deployed on Vercel.",
+        "CookBuddy is a smart meal planning app that recommends personalized, healthy recipes based on user-selected ingredients. It uses Firebase Anonymous Authentication for seamless user tracking without sign-up friction, and leverages the Spoonacular API to fetch ingredient-based recipes along with detailed nutritional information. It also tracks recipe history and supports bookmarking for better meal planning.",
       technologiesUsed: [
         "Next.js",
         "react",
         "Javascript",
         "Firebase",
         "Anonymous Auth, ",
-
+"Lazy Loading",
         "Tailwind css ",
         "html/css",
 
