@@ -138,12 +138,12 @@ const ProjectsCard = () => {
         "html/css",
         "Redux",
         "Jest",
-      " React Testing Library (RTL)",
+        " React Testing Library (RTL)",
 
         "Git & Github",
         "Context API",
       ],
-      url: "https://shop-now-chi.vercel.app/",
+      url: "https://github.com/Anshuy11/shopNow",
     },
     {
       projectName: "CookBuddy",
@@ -161,13 +161,13 @@ const ProjectsCard = () => {
         "Javascript",
         "Firebase",
         "Anonymous Auth, ",
-"Lazy Loading",
+        "Lazy Loading",
         "Tailwind css ",
         "html/css",
 
         "Git & Github",
       ],
-      url: "https://cook-buddy.vercel.app/",
+      url: "https://github.com/Anshuy11/cook-buddy",
     },
   ];
   return (
