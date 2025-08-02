@@ -138,7 +138,7 @@ const ProjectsCard = () => {
         "html/css",
         "Redux",
         "Jest",
-        " React Testing Library (RTL)",
+        "dReact Testing Library (RTL)",
 
         "Git & Github",
         "Context API",

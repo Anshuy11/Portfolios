@@ -81,7 +81,7 @@ export default function Home() {
           <span className="font-medium text-blue-500">
             SSR, Redux Toolkit, Context API
           </span>
-          , and frontend architecture. Passionate about solving complex UI
+          , and Component Architecture. Passionate about solving complex UI
           challenges and delivering{" "}
           <span className="text-blue-500">seamless user experiences</span>.
         </p>
