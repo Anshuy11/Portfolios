@@ -25,13 +25,13 @@ export default function Home() {
 
         <title>
           {
-            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
+            "Anshu Yadav-Frontend Developer"
           }
         </title>
         <meta
           name="description"
           content={
-            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
+            "Frontend Developer with 2.8+ years of experience in building scalable React and Next.js apps. Experienced in frontend system design, including HLD, SSR/CSR strategies, Redux/Context-based state management, and lazy loading for performance."
           }
         />
         <link rel="canonical" href="https://portfolios-dusky.vercel.app/" />
@@ -42,14 +42,14 @@ export default function Home() {
         <meta
           property="og:title"
           content={
-            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
+            "Anshu Yadav-Frontend Developer"
           }
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
           content={
-            "Dynamic and solution-focused Frontend Developer with expertise in React.js, Next.js, HTML/CSS, JavaScript, and Node.js, actively seeking new opportunities to contribute to innovative and high-impact projects."
+            "Frontend Developer with 2.8+ years of experience in building scalable React and Next.js apps. Experienced in frontend system design, including HLD, SSR/CSR strategies, Redux/Context-based state management, and lazy loading for performance."
           }
         />
         <meta name="robots" content="max-image-preview:large"></meta>
