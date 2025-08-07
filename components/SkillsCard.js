@@ -4,7 +4,7 @@ import Badge from "./Badge";
 const SkillsCard = () => {
   const TECH_STACK = [
     "JavaScript",
-    "TypeScript",
+    "Java (Basic)",
     "React.JS",
     "Next.js",
 
@@ -23,12 +23,11 @@ const SkillsCard = () => {
     "Tailwind CSS",
     "REST API",
     "GraphQL",
-
     "Local Storage",
     "Session Storage",
     "Lazy Loading",
     "Core Web Vital",
-
+"Object-Oriented Programming (OOP)",
     "Vite",
     "Babel",
     "Git & GitHub",
